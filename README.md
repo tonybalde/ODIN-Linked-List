@@ -49,18 +49,18 @@ OUTPUT: (5) -> (10) -> (15) -> (30) -> null
 ### contains() example
 <code>console.log(list.contains(20));</code>
 <BR />OUTPUT: false
-<code>console.log(list.contains(10));</code>
+<BR /><code>console.log(list.contains(10));</code>
 <BR />OUTPUT: true
 
 ### find() example
 <code>console.log(list.find(15));</code>
 <BR />OUTPUT: 2
-<code>console.log(list.find(25));</code>
+<BR /><code>console.log(list.find(25));</code>
 <BR />OUTPUT: null
 
 ### pop() example
 <code>list.pop();</code>
-<code>console.log(list.toString());</code>
+<BR /><code>console.log(list.toString());</code>
 <BR />OUTPUT: (5) -> (10) -> (15) -> null
 
 ### toString() example
