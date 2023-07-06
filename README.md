@@ -6,11 +6,9 @@ I run the the following test functions and they worked
 
 ### FOR EXAMPLE:
 
-const list = new LinkedList();
+1. I create a new LinkedList using the constructor
 
-<code>
-console.log
-</code>
+<code>const list = new LinkedList();</code>
 
 // append() example
 list.append(10);
