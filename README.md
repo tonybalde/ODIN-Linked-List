@@ -40,31 +40,31 @@ OUTPUT: (5) -> (10) -> (15) -> (30) -> null
 
 ### isEmpty() example
 <code>console.log(list.isEmpty());</code>
-OUTPUT: false
+<BR />OUTPUT: false
 
 ### size() example
 <code>console.log(list.size());</code>
-OUTPUT: 4
+<BR />OUTPUT: 4
 
 ### contains() example
 <code>console.log(list.contains(20));</code>
-OUTPUT: false
+<BR />OUTPUT: false
 <code>console.log(list.contains(10));</code>
-OUTPUT: true
+<BR />OUTPUT: true
 
 ### find() example
 <code>console.log(list.find(15));</code>
-OUTPUT: 2
+<BR />OUTPUT: 2
 <code>console.log(list.find(25));</code>
-OUTPUT: null
+<BR />OUTPUT: null
 
 ### pop() example
 <code>list.pop();</code>
 <code>console.log(list.toString());</code>
-OUTPUT: (5) -> (10) -> (15) -> null
+<BR />OUTPUT: (5) -> (10) -> (15) -> null
 
 ### toString() example
 <code>console.log(list.toString());</code>
-OUTPUT: (5) -> (10) -> (15) -> null
+<BR />OUTPUT: (5) -> (10) -> (15) -> null
 
 
