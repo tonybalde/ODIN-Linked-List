@@ -8,6 +8,10 @@ I run the the following test functions and they worked
 
 const list = new LinkedList();
 
+<code>
+console.log
+</code>
+
 // append() example
 list.append(10);
 list.append(20);
