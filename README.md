@@ -8,48 +8,63 @@ I run the the following test functions and they worked
 
 <code>const list = new LinkedList();</code>
 
-## append() example
+### append() example
 <code>list.append(10);
 list.append(20);
 list.append(30);
 console.log(list.toString());
 </code> 
-### OUTPUT: (10) -> (20) -> (30) -> null
+OUTPUT: (10) -> (20) -> (30) -> null
 
-// prepend() example
-list.prepend(5);
-console.log(list.toString()); // (5) -> (10) -> (20) -> (30) -> null
+### prepend() example
+<code>list.prepend(5);
+console.log(list.toString());
+</code>
+OUTPUT: (5) -> (10) -> (20) -> (30) -> null
 
-// insert() example
-list.insert(2, 15);
-console.log(list.toString()); // (5) -> (10) -> (15) -> (20) -> (30) -> null
+### insert() example
+<code>list.insert(2, 15);
+console.log(list.toString());
+</code>
+OUTPUT: (5) -> (10) -> (15) -> (20) -> (30) -> null
 
-// removeAt() example
-list.removeAt(3);
-console.log(list.toString()); // (5) -> (10) -> (15) -> (30) -> null
+### removeAt() example
+<code>list.removeAt(3);
+console.log(list.toString()); 
+</code>
+OUTPUT: (5) -> (10) -> (15) -> (30) -> null
 
-// at() example
-console.log(list.at(2)); // 15
+### at() example
+<code>console.log(list.at(2));</code>
+OUTPUT: 15
 
-// isEmpty() example
-console.log(list.isEmpty()); // false
+### isEmpty() example
+<code>console.log(list.isEmpty());</code>
+OUTPUT: false
 
-// size() example
-console.log(list.size()); // 4
+### size() example
+<code>console.log(list.size());</code>
+OUTPUT: 4
 
-// contains() example
-console.log(list.contains(20)); // false
-console.log(list.contains(10)); // true
+### contains() example
+<code>console.log(list.contains(20));</code>
+OUTPUT: false
+<code>console.log(list.contains(10));</code>
+OUTPUT: true
 
-// find() example
-console.log(list.find(15)); // 2
-console.log(list.find(25)); // null
+### find() example
+<code>console.log(list.find(15));</code>
+OUTPUT: 2
+<code>console.log(list.find(25));</code>
+OUTPUT: null
 
-// pop() example
-list.pop();
-console.log(list.toString()); // (5) -> (10) -> (15) -> null
+### pop() example
+<code>list.pop();</code>
+<code>console.log(list.toString());<code>
+OUTPUT: (5) -> (10) -> (15) -> null
 
-// toString() example
-console.log(list.toString()); // (5) -> (10) -> (15) -> null
+### toString() example
+<code>console.log(list.toString());</code>
+OUTPUT: (5) -> (10) -> (15) -> null
 
 
