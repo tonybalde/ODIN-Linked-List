@@ -12,11 +12,7 @@ I run the the following test functions and they worked
 
 2. Append some values and then show them with the console.log
 
-<code>list.append(10);
-list.append(20);
-list.append(30);
-console.log(list.toString());
-</code>
+<code>list.append(10); list.append(20); list.append(30); console.log(list.toString());</code>
 
 3. Prended
 
