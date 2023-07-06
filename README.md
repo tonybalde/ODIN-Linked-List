@@ -4,8 +4,8 @@
 
 I run the the following test functions and they worked
 
-# SOME EXAMPLES 
-
+SOME EXAMPLES 
+<hr>
 <code>const list = new LinkedList();</code>
 
 ### append() example
