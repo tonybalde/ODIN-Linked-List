@@ -60,7 +60,7 @@ OUTPUT: null
 
 ### pop() example
 <code>list.pop();</code>
-<code>console.log(list.toString());<code>
+<code>console.log(list.toString());</code>
 OUTPUT: (5) -> (10) -> (15) -> null
 
 ### toString() example
