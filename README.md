@@ -10,15 +10,21 @@ I run the the following test functions and they worked
 
 <code>const list = new LinkedList();</code>
 
-// append() example
+2. Append some values and then show them with the console.log
+
+<code>
 list.append(10);
 list.append(20);
 list.append(30);
-console.log(list.toString()); // (10) -> (20) -> (30) -> null
+console.log(list.toString());
+</code>
 
-// prepend() example
+3. Prended
+
+<code>
 list.prepend(5);
-console.log(list.toString()); // (5) -> (10) -> (20) -> (30) -> null
+console.log(list.toString());
+</code>
 
 // insert() example
 list.insert(2, 15);
