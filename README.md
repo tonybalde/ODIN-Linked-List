@@ -4,31 +4,25 @@
 
 I run the the following test functions and they worked
 
-### FOR EXAMPLE:
-
-1. I create a new LinkedList using the constructor
+# SOME EXAMPLES 
 
 <code>const list = new LinkedList();</code>
 
-2. Append some values and then show them with the console.log
-
+## append() example
 <code>list.append(10);
-list.append(20); 
-list.append(30); 
-console.log(list.toString());</code>
-
-3. Prended Example
-
-<code>list.prepend(5);
+list.append(20);
+list.append(30);
 console.log(list.toString());
-</code>
+</code> 
+### OUTPUT: (10) -> (20) -> (30) -> null
 
-4. Insert a value in a given position
+// prepend() example
+list.prepend(5);
+console.log(list.toString()); // (5) -> (10) -> (20) -> (30) -> null
 
-<code>list.insert(2, 15);
-console.log(list.toString());
-</code>
-output: (5) -> (10) -> (15) -> (20) -> (30) -> null
+// insert() example
+list.insert(2, 15);
+console.log(list.toString()); // (5) -> (10) -> (15) -> (20) -> (30) -> null
 
 // removeAt() example
 list.removeAt(3);
@@ -57,7 +51,5 @@ console.log(list.toString()); // (5) -> (10) -> (15) -> null
 
 // toString() example
 console.log(list.toString()); // (5) -> (10) -> (15) -> null
-
-
 
 
