@@ -36,7 +36,7 @@ OUTPUT: (5) -> (10) -> (15) -> (30) -> null
 
 ### at() example
 <code>console.log(list.at(2));</code>
-OUTPUT: 15
+<BR />OUTPUT: 15
 
 ### isEmpty() example
 <code>console.log(list.isEmpty());</code>
